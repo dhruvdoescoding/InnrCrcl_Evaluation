@@ -9,9 +9,9 @@ import {
   where, getDocs,
 } from "firebase/firestore";
 import { auth, db } from "@/lib/firebase";
-import PostCard, { type Post } from "@/features/feed/components/PostCard";
-import BottomNav from "@/components/BottomNav";
-import FloatingOrbs from "@/components/FloatingOrbs";
+import PostCard, { type Post } from "@/modules/feed-moderation/components/PostCard";
+import BottomNav from "@/modules/frontend-ui/components/BottomNav";
+import FloatingOrbs from "@/modules/frontend-ui/components/FloatingOrbs";
 import {
   Lock, Pencil, X, Check, LogOut, GraduationCap,
   CalendarDays, Users, FileText,

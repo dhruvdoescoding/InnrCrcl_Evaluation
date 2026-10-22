@@ -4,14 +4,14 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowUp, ArrowDown, MessageCircle, MoreVertical, Flag } from "lucide-react";
 import { formatDistanceToNow } from "date-fns";
-import { useAuth } from "@/features/auth/hooks/useAuth";
+import { useAuth } from "@/modules/auth-chat/hooks/useAuth";
 import {
   doc, getDoc, setDoc, deleteDoc, updateDoc, increment,
 } from "firebase/firestore";
 import { db } from "@/lib/firebase";
 import {
   Dialog, DialogContent, DialogHeader, DialogTitle,
-} from "@/components/ui/dialog";
+} from "@/modules/frontend-ui/components/ui/dialog";
 
 export interface Post {
   postId:        string;

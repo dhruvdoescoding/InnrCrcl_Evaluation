@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "@/lib/firebase";
 import { Eye, EyeOff, AlertTriangle } from "lucide-react";
-import FloatingOrbs from "@/components/FloatingOrbs";
+import FloatingOrbs from "@/modules/frontend-ui/components/FloatingOrbs";
 
 const GLASS_CARD: React.CSSProperties = {
   background:     "rgba(255,255,255,0.04)",

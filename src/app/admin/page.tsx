@@ -10,7 +10,7 @@ import {
 } from "firebase/firestore";
 import { auth, db } from "@/lib/firebase";
 import { Shield, CheckCircle2, XCircle, AlertTriangle, Ban, Inbox } from "lucide-react";
-import FloatingOrbs from "@/components/FloatingOrbs";
+import FloatingOrbs from "@/modules/frontend-ui/components/FloatingOrbs";
 
 // ── Styles ─────────────────────────────────────────────────────────────────────
 const GLASS: React.CSSProperties = {

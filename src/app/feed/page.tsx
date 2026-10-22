@@ -11,11 +11,11 @@ import {
 import { onAuthStateChanged, type User } from "firebase/auth";
 import { doc, getDoc } from "firebase/firestore";
 import { auth, db } from "@/lib/firebase";
-import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import PostCard, { type Post } from "@/features/feed/components/PostCard";
-import CreatePostModal from "@/features/feed/components/CreatePostModal";
-import BottomNav from "@/components/BottomNav";
-import FloatingOrbs from "@/components/FloatingOrbs";
+import { Tabs, TabsList, TabsTrigger } from "@/modules/frontend-ui/components/ui/tabs";
+import PostCard, { type Post } from "@/modules/feed-moderation/components/PostCard";
+import CreatePostModal from "@/modules/feed-moderation/components/CreatePostModal";
+import BottomNav from "@/modules/frontend-ui/components/BottomNav";
+import FloatingOrbs from "@/modules/frontend-ui/components/FloatingOrbs";
 import { PenLine } from "lucide-react";
 
 // ── Tab config ────────────────────────────────────────────────────────────────

@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { sendSignInLinkToEmail, createUserWithEmailAndPassword } from "firebase/auth";
 import { auth } from "@/lib/firebase";
 import { Lock, Mail, AlertTriangle, Eye, EyeOff } from "lucide-react";
-import FloatingOrbs from "@/components/FloatingOrbs";
+import FloatingOrbs from "@/modules/frontend-ui/components/FloatingOrbs";
 
 const ADJECTIVES = ["Crimson","Silver","Turbo","Neon","Violet","Azure","Galactic","Solar","Golden","Cosmic"];
 const NOUNS      = ["Nova","Moon","Comet","Blast","Pulse","Drift","Wave","Echo","Storm","Spark"];

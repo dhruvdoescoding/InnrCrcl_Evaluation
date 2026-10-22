@@ -3,8 +3,8 @@
 import { useState } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import SplashScreen from "@/components/SplashScreen";
-import FloatingOrbs from "@/components/FloatingOrbs";
+import SplashScreen from "@/modules/frontend-ui/components/SplashScreen";
+import FloatingOrbs from "@/modules/frontend-ui/components/FloatingOrbs";
 
 const features = [
   {

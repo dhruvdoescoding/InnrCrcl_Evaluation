@@ -12,10 +12,10 @@ import {
 import { auth, db } from "@/lib/firebase";
 import {
   Dialog, DialogContent, DialogHeader, DialogTitle,
-} from "@/components/ui/dialog";
+} from "@/modules/frontend-ui/components/ui/dialog";
 import { Shuffle, Hash, MessageCircle } from "lucide-react";
-import BottomNav from "@/components/BottomNav";
-import FloatingOrbs from "@/components/FloatingOrbs";
+import BottomNav from "@/modules/frontend-ui/components/BottomNav";
+import FloatingOrbs from "@/modules/frontend-ui/components/FloatingOrbs";
 
 // ── Styles ────────────────────────────────────────────────────────────────────
 const GLASS: React.CSSProperties = {

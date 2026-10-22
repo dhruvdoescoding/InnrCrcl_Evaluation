@@ -10,8 +10,8 @@ import {
 } from "firebase/firestore";
 import { auth, db } from "@/lib/firebase";
 import { Search, MessageCircle, Check, X, Users } from "lucide-react";
-import BottomNav from "@/components/BottomNav";
-import FloatingOrbs from "@/components/FloatingOrbs";
+import BottomNav from "@/modules/frontend-ui/components/BottomNav";
+import FloatingOrbs from "@/modules/frontend-ui/components/FloatingOrbs";
 
 // ── Styles ────────────────────────────────────────────────────────────────────
 const GLASS: React.CSSProperties = {

@@ -6,7 +6,7 @@ import {
   DialogContent,
   DialogHeader,
   DialogTitle,
-} from "@/components/ui/dialog";
+} from "@/modules/frontend-ui/components/ui/dialog";
 import {
   collection,
   addDoc,
