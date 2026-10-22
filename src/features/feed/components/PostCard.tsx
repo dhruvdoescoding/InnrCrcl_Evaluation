@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowUp, ArrowDown, MessageCircle, MoreVertical, Flag } from "lucide-react";
 import { formatDistanceToNow } from "date-fns";
-import { useAuth } from "@/lib/useAuth";
+import { useAuth } from "@/features/auth/hooks/useAuth";
 import {
   doc, getDoc, setDoc, deleteDoc, updateDoc, increment,
 } from "firebase/firestore";

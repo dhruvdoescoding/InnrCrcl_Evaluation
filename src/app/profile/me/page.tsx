@@ -9,7 +9,7 @@ import {
   where, getDocs,
 } from "firebase/firestore";
 import { auth, db } from "@/lib/firebase";
-import PostCard, { type Post } from "@/components/PostCard";
+import PostCard, { type Post } from "@/features/feed/components/PostCard";
 import BottomNav from "@/components/BottomNav";
 import FloatingOrbs from "@/components/FloatingOrbs";
 import {
