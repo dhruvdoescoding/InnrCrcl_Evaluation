@@ -36,6 +36,6 @@ export default function FloatingOrbs() {
         transition={{ duration: 8, repeat: Infinity, ease: "easeInOut", delay: 1 }}
       />
     </div>
-    /* This is for testing  */
+    /* This is for testing and for 1st phase   */
   );
 }
